@@ -1,0 +1,44 @@
+.App {
+  box-sizing: border-box;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+  text-align: left;
+}
+
+.blogTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 1em;
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.tagSection {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgb(112, 112, 112);;
+}
+
+.tag {
+  font-weight: normal;
+  margin-right: 1.5em;
+  margin-bottom: 0.5em;
+  user-select: none;
+  color: rgb(112, 112, 112);
+}
+
+.tag:hover {
+  cursor: pointer;
+}
+
+.chosen {
+  color: black;
+  font-weight: 800;
+}

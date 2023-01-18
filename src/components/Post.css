@@ -1,0 +1,55 @@
+.post {
+    width: 360px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.postImg {
+    border-radius: 8px;
+}
+
+.postTitle {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.postBodyPreview {
+    margin-top: 0.5em;
+    margin-bottom: 0.25em;
+    color: rgb(112, 112, 112);
+}
+
+.postTags {
+    margin-top: 0.25em;
+    margin-bottom: 0em;
+    display: flex;
+    flex-direction: row;
+    color: rgb(63, 63, 63);
+    font-size: 14px;
+}
+
+.postTags > p {
+    margin-right: 0.4em;
+}
+
+.readBtn {
+    margin-top: 0.5em;
+    text-align: left;
+    padding-left: 1em;
+    width: 9em;
+    height: 2.5em;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(210, 37, 181);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.readBtn:hover {
+    cursor: pointer;
+}
